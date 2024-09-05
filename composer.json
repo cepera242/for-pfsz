@@ -1,4 +1,17 @@
 {
     "name": "root/for-pfsz",
-    "require": {}
+    "license": "MIT",
+    "bin": [
+        "run"],
+    "autoload": {
+        "files": [
+            "src/Calculator.php",
+            "src/Engine.php",
+            "src/Text.php",
+            "src/Write.php"
+        ]
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
 }
